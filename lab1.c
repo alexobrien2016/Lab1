@@ -24,7 +24,7 @@ int main(){
         exit(1);
     }
     stackhead = stack + SIZE_STACK -1;
-    clone_pid = clone(shell_func, stackhead, SIGCHLD | CLONE_NEWUSER | CLONE_NEWUTS | CLONE_NEWIPC | CLONE_NEWNET | CLONE_NEWNS, NULL);
+    clone_pid = clone(shell_func, stackhead, SIGCHLD | CLONE_NEWUSER | CLONE_NEWUTS | CLONE_NEWIPC | CLONE_NEWNET | CLONE_NEWNS | CLONE_NS , NULL);
     if(clone_pid == -1){
         printf("UNABLE TO CLONE.\n");
         free(stack);
