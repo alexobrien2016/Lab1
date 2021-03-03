@@ -39,9 +39,9 @@ After downloading the source, run `./lab1` from the project root and get in to t
 * `pwd`: print the path of working directory
 * `exit`: exit the shell where it is currently running
 ## Functions:
-* 'shell_func': creates the shell with a while loop and executes the the argv by using strcmp to compare the string to commands like cd or sethost.
-* 'execute_cmd': used in the shell_func to execute commands (argv)
-* 'parse': used to parse the command line in order to get the different args 
+* `shell_func`: Takes no arguements. Creates the shell with a while loop and executes the the argv by using strcmp to compare the string to commands like cd or sethost.
+* `execute_cmd`: Takes in a pointer to an array of pointers. Used in the shell_func to execute commands (argv).
+* `parse`: Takes in a pointer to the line and a pointer to an array of pointers. Used to parse the command line in order to get the different args. 
 # File Breakdown:
 README.txt \
 Lab1.c \
