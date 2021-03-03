@@ -10,12 +10,20 @@
    * Ubuntu 18.04.4 \
 Those versions are the ones used during development.
 ## Building the program
-Download the file. (including lab1.c, functions.h) 
+Download the file. (must including `lab1.c`, `functions.h`) 
 ## Running the program
-After downloading the source, run ./lab1 from the project root.
+After downloading the source, run `./lab1` from the project root.
 # Main Project Instructions
-
-# commands:
+## Mandatory
+* Need to star with a C program
+* Start a new enviornment using Linux Namespaces for shell
+* Accept in a number of arguements from a command line
+* Need to have standard interaction
+* Need to support the "Built in" commands to set the hostname(`sethostname`), change root(`change root`) and get the current PID (`showpid`).
+* The shell should exit gracefully at all conditions with proper error messages.
+* Should give proper usage statements on improper commands or arguments to commands.
+* Using "script" to capture the testing to a file.
+# Commands:
   *cd
   *ls
   *sethostname
