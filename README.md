@@ -12,7 +12,7 @@ Those versions are the ones used during development.
 ## Building the program
 Download the file. (must including `lab1.c`, `functions.h`) 
 ## Running the program
-After downloading the source, run `./lab1` from the project root.
+After downloading the source, run `./lab1` from the project root and get in to the shell.
 # Main Project Instructions
 ## Mandatory
 * Need to star with a C program
@@ -23,15 +23,22 @@ After downloading the source, run `./lab1` from the project root.
 * The shell should exit gracefully at all conditions with proper error messages.
 * Should give proper usage statements on improper commands or arguments to commands.
 * Using "script" to capture the testing to a file.
-# Commands:
-  *cd
-  *ls
-  *sethostname
-  *Showpid
-  *changeroot
-  *exit
-  *pwd
-# Features:
-   Shell supports built-in commands like cd, pwd, ls
-   
+## Flags arguments of clone():
+* **SIGCHLD**: the child termination signal
+* **CLONE_NEWUSER**: User and group changes
+* **CLONE_NEWUTS**: Setup new hostname and domain
+* **CLONE_NEWIPC**: New namespace for IPC
+* **CLONE_NEWNET**: New network namespace
+* **CLONE_NEWNS**: New mount namespace
+## Commands:
+* `cd`: change the current working directory
+* `ls`: list directory contents of files and directories
+* `sethostname`: built in comment to set the hostname 
+* `showpid`: show the current process ID (PID)
+* `changeroot`: change the root directory
+* `pwd`: print the path of working directory
+* `exit`: exit the shell where it is currently running
 # File Breakdown:
+README.txt \
+Lab1.c \
+functions.h
