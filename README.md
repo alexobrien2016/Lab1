@@ -16,8 +16,8 @@ After downloading the source, run `./lab1` from the project root and get in to t
 # Main Project Instructions
 ## Mandatory
 * Need to start with a C program
-* Start a new enviornment using Linux Namespaces for shell
-* Accept in a number of arguements from a command line
+* Start a new environment using Linux Namespaces for shell
+* Accept in a number of arguments from a command line
 * Need to have standard interaction
 * Need to support the "Built in" commands to set the hostname(`sethostname`), change root(`change root`) and get the current PID (`showpid`).
 * The shell should exit gracefully at all conditions with proper error messages.
