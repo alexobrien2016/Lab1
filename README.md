@@ -15,7 +15,7 @@ Download the file. (must including `lab1.c`, `functions.h`)
 After downloading the source, run `./lab1` from the project root and get in to the shell.
 # Main Project Instructions
 ## Mandatory
-* Need to star with a C program
+* Need to start with a C program
 * Start a new enviornment using Linux Namespaces for shell
 * Accept in a number of arguements from a command line
 * Need to have standard interaction
